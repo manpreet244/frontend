@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(163, 153, 153, 0.723);
+}
+#nav{
+    height:80px;
+    width:100%;
+    background-color: red;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:13px;
+    padding:0 40px;
+    
+}
+#nav h4{
+    font-size: 20px;
+}
+#nav i{
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    padding:10px;
+    border-radius: 50%;
+}
